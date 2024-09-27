@@ -1,0 +1,52 @@
+:root {
+    --background-color: black;
+    --h1-font-size: 50px;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-family: Verdana, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    margin: 2rem 0;
+}
+
+body {
+    color: white;
+    margin: 2rem 0;;
+    text-align: center;
+    font-weight: normal;
+    flex-direction: column;
+    background-color: var(--background-color);
+}
+
+p.highlight {
+    color: aquamarine;
+    font-size: 16px;
+    margin: 3rem 0;
+    text-decoration: underline;
+}
+
+p.remark {
+    font-family: Verdana, sans-serif;
+    font-size: 21px;
+    color: gray;
+    margin: 3rem 0;
+}
+
+.titleimg {
+    width: 30%;
+    height: auto;
+}
+
+.camp {
+
+}
+
+.phone {
+    margin-top: 3rem;
+}
